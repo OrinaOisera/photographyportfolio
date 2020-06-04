@@ -207,6 +207,14 @@ header.sticky{
     left:0;
     right: 0;
     background: green;
+    transform: translateY(-200%);
+    transition: 0.2s;
+}
+
+body.scroll  header.sticky {
+
+    transform: translateY(0);
+    
 }
 
 
@@ -225,6 +233,7 @@ nav.nav-wrapper ul  li {
     display: inline-block;
     padding: 0 10px;
 }
+
 
 nav.nav-wrapper ul  li a {
     font-size: 16px;
